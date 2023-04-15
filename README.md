@@ -13,3 +13,7 @@ state:"Tamil Nadu"
 },
 hobbies:["listing audio books", "cricket"]
 }
+
+
+In mongoDB the JSON is stored in aformat of BSON-Binary Object Notation
+
