@@ -50,6 +50,29 @@ COMMANDS
 
 db.collectionname.findOne({name:"Akash"}) returns name of the object with Akash
 
+6 db.collectionname.find() return all objects in the document
+
+db.collectionname.find({"address.state":"Tamil nadu"})
+
+//UPDATE
+
+db.collectionname.updateOne({"addres.state":"Delhi"}) - update one 
+
+db.collectionname.updateMany({"addres.state":"Delhi"})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
