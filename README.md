@@ -37,7 +37,15 @@ COMMANDS
                          address:{
                          state:"Tamil nadu"
                          }) 
-                         })
+                         }) - it can add only one object in db
+                         
+4 db.dbname.insertMany(
+[
+{name:"Akash",address:{ state:"Tamil nadu"}},
+{name:"Kumar",address:{ state:"Tamil nadu"}}
+
+])  - it can store many object but it is stored in the array of objects
+
 
 
 
