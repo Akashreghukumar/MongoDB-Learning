@@ -56,9 +56,17 @@ db.collectionname.find({"address.state":"Tamil nadu"})
 
 //UPDATE
 
-db.collectionname.updateOne({"addres.state":"Delhi"}) - update one 
+should have params
 
-db.collectionname.updateMany({"addres.state":"Delhi"})
+db.collectionname.updateOne({"name":"Akash"},
+{
+$set:{"address.state":"Kerala"}
+}) - update one 
+
+db.collectionname.updateMany(
+{"addres.state":"Delhi"},
+{$set:{"address.state":"Kerala"}
+)
 
 
 
