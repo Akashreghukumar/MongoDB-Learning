@@ -29,6 +29,16 @@ Normalization
 There is no forced schema for all the document. Object can be differ from one other
 
 
+COMMANDS
+
+1 show dbs - show all database that are created
+2 use dbname - it allows us to use or work on the selected db
+3 db.dbname.insertOne({name:"Akash",
+                         address:{
+                         state:"Tamil nadu"
+                         }) 
+                         })
+
 
 
 
