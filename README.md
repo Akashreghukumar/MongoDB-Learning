@@ -68,8 +68,11 @@ db.collectionname.updateMany(
 {$set:{"address.state":"Kerala"}
 )
 
+DELETE
 
+db.collectionname.deleteOne({name:"Akash"})
 
+db.collectionname.deleteMany({"addres.state":"Delhi"})
 
 
 
