@@ -33,18 +33,22 @@ COMMANDS
 
 1 show dbs - show all database that are created
 2 use dbname - it allows us to use or work on the selected db
-3 db.dbname.insertOne({name:"Akash",
+3 db.collectionname.insertOne({name:"Akash",
                          address:{
                          state:"Tamil nadu"
                          }) 
                          }) - it can add only one object in db
                          
-4 db.dbname.insertMany(
+4 db.collectionname.insertMany(
 [
 {name:"Akash",address:{ state:"Tamil nadu"}},
 {name:"Kumar",address:{ state:"Tamil nadu"}}
 
 ])  - it can store many object but it is stored in the array of objects
+
+5 db.collectionname.findOne() if the parameter is empty return the first object in the array
+
+db.collectionname.findOne({name:"Akash"}) returns name of the object with Akash
 
 
 
